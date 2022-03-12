@@ -6,11 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+* {
+    font-family: 'Prata', serif;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+/* title section */
+
+#title {
+    padding: 3% 7%;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    margin: 0 20px;
+}
+
+.nav-link:hover {
+    color: grey;
+}
+
+.text-title {
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.New-song-annoucment {
+    font-size: 3rem;
+}
+
+.title-song-name {
+    text-decoration: underline;
+}
+
+.dummy-square {
+    margin-top: 30px;
+    width: 90%;
+    background: grey;
+}
+
+/* about section */
+.About-me {
+    text-align: center;
+    padding: 100px 0;
+    background: #1c1c1c;
+}
+
+.About-me-h3 {
+    font-size: 2rem;
+}
+
+.about-paragraph {
+    line-height: 2;
+    width: 30%;
+    margin: auto;
+}
+
+
+
+
+    </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Hello, world!</title>
   </head>
   <body>
+    <section id="title">
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Desk Musician</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+          <a href="" class="btn btn-light">Listen on instagram</a>
+      </span>
+    </div>
+  </div>
+</nav>
+
+<div class="text-title">
+    <h1 class="New-song-annoucment">New Song: <span class="title-song-name">Coming Soon</span></h1>
+    <div class="dummy-square">Image will come here</div>
+</div>
+</section>
+
+<section class="About-me">
+    <h3 class="About-me-h3">About Me</h3>
+    <p class="about-paragraph">Hi, My name is <u>Mayank Dhillon</u>, Musician based in Gurgaon, Haryana, India. I love music, you can listen to my songs on <a href="https://www.instagram.com/desk_musician_official/">instagram</a></p>
+</section>
  
     <!-- js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
