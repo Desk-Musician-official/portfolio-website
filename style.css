@@ -21,6 +21,11 @@ body {
 
 .navbar {
   background: black;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
 
 .navbar-brand {
     color: white;
@@ -96,3 +101,8 @@ body {
       width: 60%;
     }
 
+    .nav-btn-listen {
+        margin-top: 10px;
+    }
+
+}
